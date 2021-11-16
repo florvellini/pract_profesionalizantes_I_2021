@@ -8,7 +8,7 @@ const int MAX = 100;
 typedef struct{
 	string nombre;
 	string apellido;
-	int año;
+	int aÃ±o;
 }talumno;
 typedef talumno tArray[MAX];
 typedef struct{
