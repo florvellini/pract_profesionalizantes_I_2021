@@ -1,0 +1,10 @@
+Existen dos tipos de lenguajes de programación: por un lado, aquellos de los que la gente se queja todo el rato; por otro, los que nadie utiliza.
+Siempre deseé que mi computadora fuera tan fácil de usar como mi teléfono. Mi deseo se ha hecho realidad: ya no sé usar mi teléfono.
+El diseño y la programación son actividades humanas; olvida eso y todo está perdido.
+Una organización que trata a sus programadores como idiotas pronto tendrá programadores que estarán dispuestos y serán capaces de actuar sólo como idiotas.
+Cuando usas C++ es más difícil que te dispares a ti mismo en el pie, pero cuando lo haces, te vuelas la pierna entera.
+Hay sólo dos clases de lenguajes de programación: aquellos de los que la gente está quejándose siempre y aquellos que nadie usa.
+El aspecto más importante del desarrollo de software es ser claro en lo que estás tratando de construir.
+La programación corporativa a menudo se realiza hasta el punto en que el individuo está completamente sumergido en la cultura corporativa sin salida para talentos y habilidades únicos. Las prácticas corporativas pueden ser directamente hostiles a las personas con habilidades e iniciativa excepcConsidero que la gestión de la gente técnica es cruel y derrochadora.
+Dentro de C++ hay un lenguaje mucho más pequeño y limpio que lucha por salir.
+Ser bueno en una sola cosa no es suficiente, tienes que ser lo suficientemente bueno en todo.

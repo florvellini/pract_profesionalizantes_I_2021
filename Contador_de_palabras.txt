@@ -1,0 +1,67 @@
+#include <iostream> //libreria para carga y lectura por consola
+#include <string>   //libreria de parametros string
+#include <iomanip>  //libreria para trabajar con formatos
+#include <fstream>  //libreria para trabajo con archivos
+
+//en este caso esta libreria esta de mas, se usaba para el !archivo.eof() en el "FOR"
+//#include <cstdio>   //libreria de entrada y salida de datos de C
+using namespace std;
+
+int main()
+{
+  int selector;
+  string frases;
+  ifstream archivo;      //Elijo el archivo txt
+  int cant_palabras = 0; //Defino una variable para contar las palabras y defino que empiece en el numero '0'
+
+  archivo.open("frasesDeBjarme.txt"); //Abro el archivo.
+
+  if (archivo.is_open())
+  {                                                      //Verifica que exista el archivo
+    cout << "El archivo se abrio correctamente" << endl; //agrego salto de linea
+
+    //linea agregada para seleccionar tipo de resolucion
+    do
+    {
+      cout << "resolver con while (1), resolver con do while (2): ";
+      cin >> selector;
+    } while (selector != 1 && selector != 2);
+    if (selector = 1)
+    {
+      //aca lo soluciono con un while
+      archivo >> frases;
+      while (frases != "~sentinela~") //busco el senti
+nela
+      {
+        cant_palabras++;
+        archivo >> frases;
+      }
+      cout << "La cantidad de palabras es de  " << cant_palabras << endl;
+    }
+    else if (selector = 2)
+    {
+      //aca lo soluciono con un do... while...
+      cant_palabras = 0; //lo igualo a cero para que no me arrastre el valor del while anterior
+      do
+      {
+        archivo >> frases;
+        cant_palabras++;
+      } while (frases != "~sentinela~");
+      cout << "La cantidad de palabras es de  " << cant_palabras << endl;
+    }
+  }
+  else
+  {
+    cout << "No se pudo abrir el archivo  " << endl;
+  }
+
+  //  for (cant_palabras = 0; !archivo.eof(); cant_palabras++)
+  //  {
+  //    archivo >> frases;
+  //    cout << "La cantidad de palabras es de  " << cant_palabras << endl;
+  //  }
+
+  archivo.close();
+  system("pause"); //pauso el programa para que no se me cierre
+  return 0;
+}
